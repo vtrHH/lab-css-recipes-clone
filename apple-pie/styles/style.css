@@ -2,16 +2,20 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   max-width: 720px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 h1 {
   font-size: 42px;
-  color: white;
+  color: blue;
 }
 
 header {
-  background-image: url(/Users/melli/ironhack/labs/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  padding: 48px 0;
+  background-image: url('.images/apple-pie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #intro-text {
@@ -21,4 +25,14 @@ header {
 .container {
   display: flex;
   justify-content: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: '- ';
 }
